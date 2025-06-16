@@ -8,7 +8,7 @@ public class Produto {
     @CsvBindByName(column = "ProductId" , required = true)
     private int id;
 
-    @CsvBindByName(column = "ProductId" , required = true)
+    @CsvBindByName(column = "ProductName" , required = true)
     private String name;
 
     @CsvBindByName(column = "Description" , required = true)
